@@ -1,0 +1,79 @@
+/* Body background */
+.gradient {
+    background: linear-gradient(#ecc0c0, #ffffff);
+}
+
+h1, h2, h3, p, a {
+    font-family: 'Dosis', sans-serif;
+}
+
+a, p {
+    color: #454545;
+}
+
+p {
+   
+    text-align: center;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+/* make banner text bigger */
+div h1.card-title { 
+    font-size:5vw;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+div .skill-icon {
+    width: 100px;
+}
+
+div .skill-icon2 {
+    width: 150px;
+}
+
+/* .bg-dark.bg-gradient {
+    background-image: var(--bs-gradient);
+} Could not add background gradient on a overlay layer with bootstrap */
+
+/* contact.html style */
+
+/* customizing the contact form */
+.bg-container {
+    background-color: rgb(79, 79, 79);
+    padding: 3vw;
+    border-radius: 15px;
+}
+
+.form-label {
+    color:aliceblue;
+    font-family: 'Dosis', sans-serif;
+}
+
+button.btn {
+    background-color: #ecc0c0;
+    color: #454545;
+    font-family: 'Dosis', sans-serif;
+}
+
+#inputMessage {
+    font-family: 'Dosis', sans-serif;
+}
+
+.contact-us {
+    border-radius: 15px;
+}
+
+/* About style */
+
+p.about-me {
+    text-align: left;
+
+}
+
+.animate__animated.animate__bounceIn {
+    --animate-duration: 10s;
+  }
